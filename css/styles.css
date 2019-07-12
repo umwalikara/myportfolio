@@ -19,8 +19,28 @@ h1{
 header{
   display: flex;
   justify-content: space-around;
-  align-items: center;
   min-height: 8vh;
   background-color: darkolivegreen;
   font-family: 'poppins', sans-serif;
+}
+.menu{
+  float: right;
+  display: flex;
+  list-style: none;
+  margin-top: 30px;
+}
+menu li{
+  display: inline-block;
+}
+.menu li a{
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: "roboto", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+.menu li a:hover{
+  background-color: grey;
+  color: rgb(28, 29, 29);
 }
