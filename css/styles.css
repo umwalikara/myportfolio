@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
 }
-header{
+.header{
   background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), 
   url(https://lh3.googleusercontent.com/proxy/y4a37J0QDnfsanZnftovP4V1Z4O6_TB3bjvuhVeCzYh9TR2-vtIiLUF3ymz9sbe1zDpYV40efXJLzHGcZQNcrDISO_OS7RchLi6yxUla1zFWjtCMz8Ov-qr02HU_SOcK14S2YNBr6tg7kc4a25ZifXJpY_G2fmv-IobR=s0-d);
   height: 80vh;
@@ -10,9 +10,17 @@ header{
   background-position: center;
 }
 h1{
-    color: white;
-    text-transform: uppercase;
-    font-size: 50px;
-    text-align: center;
-    padding: 300px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 50px;
+  text-align: center;
+  padding: 300px;
+}
+header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: darkolivegreen;
+  font-family: 'poppins', sans-serif;
 }
